@@ -14,13 +14,13 @@ function Contact() {
           promise!
         </p>
         <div className="row mb-16">
-          <div className="col-lg-3">
+          <div className="col-lg-3 mb-3">
             <div className="flex items-center">
               <FaPhoneSquare size={30}/>
               <span className="ml-3">+234 814 861 5957</span>
             </div>
           </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 mb-3">
             <div className="flex items-center">
               <FaMailBulk size={30}/>
               <span className="ml-3">Info@taiwomadewriter.com</span>
