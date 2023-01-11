@@ -59,7 +59,7 @@ function Contact() {
               </div>
             </Form>
           </div>
-          <div className="col-lg-6 mb-8">
+          <div className="col-lg-6 mb-8 css-uejpwu">
             <lottie-player
               src="https://assets7.lottiefiles.com/packages/lf20_eroqjb7w.json"
               background="transparent"

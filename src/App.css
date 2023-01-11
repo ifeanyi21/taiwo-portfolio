@@ -17,8 +17,8 @@ button {
   color: #1976d2;
 }
 
-/* @media (max-width:1000px){
+@media (max-width:992px){
     .css-uejpwu{
-        padding: 10px;
+       display: none;
     }
-} */
+}
