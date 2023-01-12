@@ -5,8 +5,10 @@ import Unshackled from "../../assests/images/Unshackled.jpeg";
 import AmazonLogo from "../../assests/images/Amazon_icon.svg.png";
 import KoboLogo from "../../assests/images/Kobo-logo.jpg";
 import ArticleCard from "../../components/Card/ArticleCard";
+import {useNavigate} from 'react-router-dom'
 
 function Home() {
+  const navigate = useNavigate()
   const articles = [
     {
       url: "https://taiwomadewriter-com.preview-domain.com/2022/07/a-perfect-mess-by-zoe-dawson/",
@@ -69,7 +71,7 @@ function Home() {
               with you.
             </p>
 
-            <button className="px-5 py-3 bg-slate-900 hover:bg-slate-700 text-white font-bold">
+            <button className="px-5 py-3 bg-slate-900 hover:bg-slate-700 text-white font-bold" onClick={()=>navigate('/about')}>
               ABOUT TAIWO
             </button>
           </div>
@@ -90,7 +92,7 @@ function Home() {
             </p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
               <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                <button className="px-5 py-3 bg-slate-900 text-white">
+                <button className="px-5 py-3 bg-slate-900 text-white" onClick={()=>navigate('/contact')}>
                   WORK WITH US
                 </button>
               </div>
