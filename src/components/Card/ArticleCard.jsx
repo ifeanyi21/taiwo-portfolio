@@ -26,7 +26,7 @@ export default function ArticleCard({ body, header, url }) {
   const onCopy = React.useCallback(() => {
     setCopied(true);
     handleClick();
-    setTimeout(() => setOpen(false), 2000);
+    setTimeout(() => setOpen(false), 4000);
   }, []);
   return (
     <Card sx={{ maxWidth: "100%", minHeight: "200px", marginBottom: 6 }}>

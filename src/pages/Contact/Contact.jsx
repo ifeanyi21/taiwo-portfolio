@@ -1,6 +1,7 @@
 import React from "react";
-import { Col, FloatingLabel, Form, Row, Button } from "react-bootstrap";
+import { Col, FloatingLabel, Form, Row } from "react-bootstrap";
 import { FaMailBulk, FaPhoneSquare } from "react-icons/fa";
+import { Button } from "@mui/material";
 
 function Contact() {
   return (
@@ -14,16 +15,30 @@ function Contact() {
           promise!
         </p>
         <div className="row mb-16">
-          <div className="col-lg-3 mb-3">
+          <div className="col-lg-6 mb-3">
             <div className="flex items-center">
-              <FaPhoneSquare size={30}/>
-              <span className="ml-3">+234 814 861 5957</span>
+              <a href="tel:+2348148615957" className="nav-link">
+                <Button
+                  startIcon={<FaPhoneSquare size={30} />}
+                  variant="contained"
+                  color="info"
+                >
+                  <span className="ml-3 text-lg">+234 814 861 5957</span>
+                </Button>
+              </a>
             </div>
           </div>
-            <div className="col-lg-3 mb-3">
+          <div className="col-lg-6 mb-3">
             <div className="flex items-center">
-              <FaMailBulk size={30}/>
-              <span className="ml-3">Info@taiwomadewriter.com</span>
+              <a href="mailto:Info@taiwomadewriter.com" className="nav-link">
+                <Button
+                  startIcon={<FaMailBulk size={30} />}
+                  variant="contained"
+                  color="info"
+                >
+                  <span className="ml-3">Info@taiwomadewriter.com</span>
+                </Button>
+              </a>
             </div>
           </div>
         </div>
@@ -53,7 +68,12 @@ function Contact() {
                 </Form.Group>
               </Row>
               <div className="d-grid gap-2">
-                <Button type="submit" variant="info" className="bg-sky-500">
+                <Button
+                  type="submit"
+                  variant="contained"
+                  color="info"
+                  size="large"
+                >
                   Send
                 </Button>
               </div>
