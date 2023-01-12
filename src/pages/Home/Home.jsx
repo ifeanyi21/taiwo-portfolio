@@ -9,7 +9,7 @@ import ArticleCard from "../../components/Card/ArticleCard";
 function Home() {
   const articles = [
     {
-      url: "https://taiwomadewriter-com.preview-domain.com/2022/11/julie-jean-evans-new-released-book-system-exposed-a-brave-book-by-an-inspiring-woman/",
+      url: "https://taiwomadewriter-com.preview-domain.com/2022/07/a-perfect-mess-by-zoe-dawson/",
       header: "A Perfect Mess by Zoe Dawson",
       body: "I know what you did last summer. Aubree Walker, the perfect girl most likely to succeed, is sure there’s only one person who knows what she did. Booker Outlaw, one of the three Outlaw brothers–all identical, all gorgeous, all from the…",
     },
