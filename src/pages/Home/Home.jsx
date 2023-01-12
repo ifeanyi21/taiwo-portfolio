@@ -45,30 +45,21 @@ function Home() {
               disagreeing with. This is how you stand out and get the attention
               your work deserves: You have to pick a fight.
             </p>
-            <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-              <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                  <button className="px-5 py-3 bg-slate-900 text-white">
-                    Get Started
-                  </button>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
-      <div className="py-24 px-10 bg-white text-black shadow-lg rounded-md">
+      <div className="py-24 px-10 bg-sky-500 text-white shadow-lg rounded-md">
         <div className="flex justify-center">
           <div>
-            <h1 className="mb-10">The Power of a Creative Life</h1>
-            <p className="mb-8">
+            <h1 className="mb-10 font-bold">The Power of a Creative Life</h1>
+            <p className="mb-8 font-medium">
               When I was a kid, I discovered the power of creativity when my dad
               told me bedtime stories he made up on the spot. Just before
               turning thirty, I started calling myself a writer, and as a result
               began to act like it, which taught me that before we can do
               something new, we sometimes have to become someone new.
             </p>
-            <p className="mb-8">
+            <p className="mb-8 font-medium">
               A decade later, I found myself stuck in a life I did not want,
               having chased other people’s definitions of success and feeling
               disappointed. It was time to re-create myself. This website is
@@ -78,7 +69,7 @@ function Home() {
               with you.
             </p>
 
-            <button className="px-5 py-3 bg-slate-900 hover:bg-slate-700 text-white">
+            <button className="px-5 py-3 bg-slate-900 hover:bg-slate-700 text-white font-bold">
               ABOUT TAIWO
             </button>
           </div>
@@ -172,9 +163,9 @@ function Home() {
       <div className="mb-16">
         <h1 className="mb-16 underline">Articles</h1>
         <div className="row">
-          {articles.map((article) => {
+          {articles.map((article, index) => {
             return (
-              <div className="col-lg-4">
+              <div className="col-lg-4" key={index}>
                 <ArticleCard
                   body={article.body}
                   header={article.header}

@@ -62,14 +62,14 @@ function About() {
 
         <p className="font-normal">
           He is also the founder of Fresh Complaint, a bespoke creative agency
-          that helps thought leaders turn good ideas into big ideas. Jeff and
+          that helps thought leaders turn good ideas into big ideas. Taiwo and
           his team do this through the powerful medium of books: from proposals
           to editing to full-on ghostwriting, Fresh Complaint can help you make
           your book great.
         </p>
 
         <p className="font-normal">
-          Just outside of Nashville, Jeff can be found making a midday omelette
+          Just outside of Nashville, Taiwo can be found making a midday omelette
           for a friend, hiking with his kids, or editing his latest poem.
         </p>
       </div>
