@@ -17,30 +17,30 @@ function Footer() {
             <a
               target={"_blank"}
               rel="noreferrer"
-              href="https://taiwomadewriter-com.preview-domain.com/2022/11/julie-jean-evans-new-released-book-system-exposed-a-brave-book-by-an-inspiring-woman/"
+              href="https://taiwomadewriter-com.preview-domain.com/2022/11/about-taiwo/"
               className="text-black no-underline"
             >
-              A Perfect Mess by Zoe Dawson
+              About Taiwo
             </a>
           </div>
           <div className="text-muted text-base my-8">
             <a
               target={"_blank"}
               rel="noreferrer"
-              href="https://taiwomadewriter-com.preview-domain.com/2022/08/redemption-by-carolyn-p-hartley/"
+              href="https://taiwomadewriter-com.preview-domain.com/2022/01/the-power-of-stories/"
               className="text-black no-underline"
             >
-              Redemption by Carolyn P Hartley
+              The Power Of Stories
             </a>
           </div>
           <div className="text-muted text-base">
             <a
               target={"_blank"}
               rel="noreferrer"
-              href="https://taiwomadewriter-com.preview-domain.com/2022/02/book-press-release/"
+              href="https://taiwomadewriter-com.preview-domain.com/2022/08/book-a-call-with-me/"
               className="text-black no-underline"
             >
-              Book Press Release
+              Book A Call With Me
             </a>
           </div>
         </div>

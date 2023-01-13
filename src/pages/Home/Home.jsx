@@ -11,19 +11,19 @@ function Home() {
   const navigate = useNavigate()
   const articles = [
     {
-      url: "https://taiwomadewriter-com.preview-domain.com/2022/07/a-perfect-mess-by-zoe-dawson/",
-      header: "A Perfect Mess by Zoe Dawson",
-      body: "I know what you did last summer. Aubree Walker, the perfect girl most likely to succeed, is sure there’s only one person who knows what she did. Booker Outlaw, one of the three Outlaw brothers–all identical, all gorgeous, all from the…",
+      url: "https://taiwomadewriter-com.preview-domain.com/2022/11/about-taiwo/",
+      header: "About Taiwo",
+      body: "Taiwo was born into a small, close-knit family in Ogun State, Nigeria. His family loved books, with his father always buying new books whenever he went to work. Although he…",
     },
     {
-      url: "https://taiwomadewriter-com.preview-domain.com/2022/08/redemption-by-carolyn-p-hartley/",
-      header: "Redemption by Carolyn P Hartley",
-      body: "Redemption: One Woman’s Dream to Overcome Oppression, Find Family, Love and Forgiveness. Greed is invisible until you see the damage it inflicts on innocent children. Redemption, a young adult fiction story, exposes raw…",
+      url: "https://taiwomadewriter-com.preview-domain.com/2022/08/book-a-call-with-me/",
+      header: "Book A Call With Me",
+      body: "Your stories and ideas should never die with you when you can create books and other content forms from them.  With more than a million words written, three million edited…",
     },
     {
-      url: "https://taiwomadewriter-com.preview-domain.com/2022/02/book-press-release/",
-      header: "Book Press Release",
-      body: "You are your own worst enemy : There is no such thing as the devil  by D GB (Author) Publication date ‏ : ‎ February 21, 2022 Price: $14.00 Pages: 41 ASIN ‏ : ‎ B09T3VCRX1 D GB Announces the Release of…",
+      url: "https://taiwomadewriter-com.preview-domain.com/2022/01/the-power-of-stories/",
+      header: "The Power Of Stories",
+      body: "As a child, my father’s bedtime stories always thrilled me. As in African homes, there was never a lack of stories. My father started with the fables before using everyday…",
     },
   ];
   return (
